@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eventos Implícitos"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="#333333"/>
+
+        <!-- 5 Intents Implícitos -->
+        <Button android:id="@+id/btnWeb" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1. Abrir Sitio Web" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnDial" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. Marcar Teléfono" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. Enviar Correo" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnWifi" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. Configuración Wi-Fi" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnMap" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. Abrir Mapa" android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eventos Explícitos"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="#333333"/>
+
+        <!-- 3 Intents Explícitos -->
+        <Button android:id="@+id/btnDetalle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. Ver Detalles (Enviar Datos)" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnConfig" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="7. Ajustes de la App" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnAyuda" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="8. Ayuda / FAQ" android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
